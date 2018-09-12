@@ -130,12 +130,20 @@
 
         </RadioGroup>
 
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_upload_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#1DE9B6"
+            android:padding="12dp"
+            android:text="Upload Photo"/>
+
         <!-- Signup Button -->
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_adddetails"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:onClick="Register"
             android:layout_marginTop="24dp"
             android:background="#1DE9B6"
             android:layout_marginBottom="24dp"
